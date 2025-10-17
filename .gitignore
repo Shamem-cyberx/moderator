@@ -1,2 +1,20 @@
 backend/*.pt 
 backend/.env 
+# Environment and secrets
+.env
+backend/.env
+
+# Python cache and logs
+__pycache__/
+*.pyc
+*.log
+
+# Node.js dependencies
+node_modules/
+build/
+dist/
+
+# VSCode & OS files
+.vscode/
+.DS_Store
+Thumbs.db
